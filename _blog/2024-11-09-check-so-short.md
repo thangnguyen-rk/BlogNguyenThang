@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: blog
 title: "First Blog Post"
 permalink: /blog/first-blog-post/   # Điều chỉnh permalink này nếu cần
 categories: blog
