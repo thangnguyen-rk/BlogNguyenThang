@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Blog
-permalink: /Blog/
+title: blog
+permalink: /blog/
 ---
 
 Mục này sẽ trình bày về các project
