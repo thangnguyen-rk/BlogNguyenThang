@@ -1,16 +1,21 @@
 ---
-layout: default
-title: Home
-permalink: /
+layout: page
+title: blog
+permalink: /blog/
 ---
 
-<h1>Welcome to My Website</h1>
-<p>This is the homepage of my amazing Jekyll site!</p>
+Mục này sẽ trình bày về các project
 
-<h2>Recent Blog Posts</h2>
-<ul>
-  {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
+{% assign blog_posts = site.blog %}
+{% if blog_posts.size > 0 %}
+   <ul>
+      {% for post in blog_posts %}
+         <li>
+            <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%b %d, %Y" }}
+         </li>
+      {% endfor %}
+   </ul>
+{% else %}
+   <p>Chưa có bài viết nào.</p>
+{% endif %}
 
