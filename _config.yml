@@ -32,8 +32,7 @@ plugins:
 # Menu
 header_pages:
   - CV.md           # Tạo file CV.md trong thư mục gốc hoặc thư mục _pages để hiển thị trang CV
-  - title: "Post"
-  file: "/Post.md"         # Tạo file Post.md trong thư mục gốc hoặc thư mục _pages để hiển thị trang Post
+  - Post.md         # Tạo file Post.md trong thư mục gốc hoặc thư mục _pages để hiển thị trang Post
   - about.md        # about.md có thể đã có sẵn trong thư mục gốc hoặc _pages
 
 # Set to `true` to show excerpts on the homepage.
