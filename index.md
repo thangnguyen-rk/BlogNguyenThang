@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-permalink: /
+permalink: /_posts/
 ---
 
 <h1>Welcome to My Website</h1>
