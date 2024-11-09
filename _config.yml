@@ -28,10 +28,12 @@ plugins:
 
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
+
+# Menu
 header_pages:
-  - about.md
-  - Post
-  - CV
+  - CV.md           # Tạo file CV.md trong thư mục gốc hoặc thư mục _pages để hiển thị trang CV
+  - Post.md         # Tạo file Post.md trong thư mục gốc hoặc thư mục _pages để hiển thị trang Post
+  - about.md        # about.md có thể đã có sẵn trong thư mục gốc hoặc _pages
 
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
