@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: page
 title: Blog
-permalink: /_blog/
+permalink: /blog/
 ---
 
 <ul>
