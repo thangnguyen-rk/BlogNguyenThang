@@ -1,21 +1,10 @@
 ---
-layout: post
-title: Blog
-permalink: /_blog/
+#
+# By default, content added below the "---" mark will appear in the home page
+# between the top bar and the list of recent posts.
+# To change the home page layout, edit the _layouts/home.html file.
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#
+layout: home
 ---
-
-Mục này sẽ trình bày về các project
-
-{% assign blog_posts = site.blog %}
-{% if blog_posts.size > 0 %}
-   <ul>
-      {% for post in blog_posts %}
-         <li>
-            <a href="{{ post.url }}">{{ post.title }}</a> - {{ post.date | date: "%b %d, %Y" }}
-         </li>
-      {% endfor %}
-   </ul>
-{% else %}
-   <p>Chưa có bài viết nào.</p>
-{% endif %}
 
