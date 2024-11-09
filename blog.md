@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Blog
-permalink: /blog/
+permalink: /_blog/
 ---
 
 Mục này sẽ trình bày về các project
