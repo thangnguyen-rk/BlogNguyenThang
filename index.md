@@ -14,5 +14,4 @@ permalink: /
   {% endfor %}
 </ul>
 
-
 <p><a href="/blog/">Go to Blog</a></p>
