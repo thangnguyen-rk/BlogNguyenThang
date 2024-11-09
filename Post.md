@@ -1,5 +1,7 @@
 ---
 layout: page
 title: Post
-permalink: /about/
+permalink: /Post/
 ---
+
+ Mục này sẽ trình bày về các project
