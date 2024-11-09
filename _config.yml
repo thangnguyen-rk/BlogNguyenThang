@@ -38,6 +38,11 @@ header_pages:
 # Set to `true` to show excerpts on the homepage.
 #show_excerpts: false
 
+collections:
+  blog:
+    output: true
+    permalink: /blog/:path/
+    
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
   # Minima skin selection.
