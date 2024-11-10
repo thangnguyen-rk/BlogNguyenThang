@@ -1,6 +1,7 @@
 ---
 layout: post
-title: "Tiêu đề bài viết"
+title: "First Blog Post 2"
+permalink: /blog/first-blog-post/   # Điều chỉnh permalink này nếu cần
 categories: blog
 ---
 
