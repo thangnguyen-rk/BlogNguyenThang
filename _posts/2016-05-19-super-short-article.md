@@ -8,7 +8,7 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 \usepackage{amsmath}
 ...
-$$
+[
 \operatorname{cov}_{x, y}=\frac{\sum\left(x_i-\bar{x}\right)\left(y_i-\bar{y}\right)}{N-1}
-$$
+]
 
