@@ -6,7 +6,7 @@ permalink: /blog/
 
 Mục này sẽ trình bày về các project
 
-{% assign blog_posts = site.posts %}
+{% assign blog_posts = site.blog %}
 {% if blog_posts.size > 0 %}
    <ul>
       {% for post in blog_posts %}
@@ -18,4 +18,3 @@ Mục này sẽ trình bày về các project
 {% else %}
    <p>Chưa có bài viết nào.</p>
 {% endif %}
-
