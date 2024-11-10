@@ -1,8 +1,11 @@
 ---
 layout: page
-title: blog
+title: Blog
 permalink: /blog/
 ---
 
-# heading
-## heading   
+<ul>
+  {% for post in site.blog %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul> 
