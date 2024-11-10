@@ -41,7 +41,7 @@ header_pages:
 collections:
   blog:
     output: true
-    permalink: /blog/:title/
+    permalink: /blog/:path/
     
 # Minima specific settings, which are only available from Minima 3.0 onward.
 minima:
