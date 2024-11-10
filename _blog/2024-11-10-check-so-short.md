@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "First Blog Post"
 categories: blog
 ---
