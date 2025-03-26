@@ -10,6 +10,4 @@ $$
 s=\sqrt{\frac{\sum(x-\bar{x})^2}{n-1}}
 $$
 
-$$
-\operatorname{cov}_{x, y}=\frac{\sum\left(x_i-\bar{x}\right)\left(y_i-\bar{y}\right)}{N-1}
-$$
+$$\operatorname{cov}_{x, y}=\frac{\sum\left(x_i-\bar{x}\right)\left(y_i-\bar{y}\right)}{N-1}$$
