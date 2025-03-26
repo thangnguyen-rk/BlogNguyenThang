@@ -12,3 +12,6 @@ $$
 
 $$\text{cov}_{x, y} = \frac{\sum\left(x_i - \bar{x}\right)\left(y_i - \bar{y}\right)}{N-1}$$
 
+
+
+![image](https://github.com/user-attachments/assets/c6e638f7-2969-41d8-b7bc-6a71edca16c1)
